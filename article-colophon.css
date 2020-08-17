@@ -1,0 +1,28 @@
+.colophon{
+    display: grid;
+    grid-area: colophon;
+    grid-template-columns: repeat(4, 1fr);
+	grid-template-areas: "colophon__country colophon__date . colophon__comments";
+    font-weight: bold;  
+}
+
+
+.colophon {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin: 0;
+}
+
+.colophon__country {
+    grid-area: colophon__country;
+    color: red;
+}
+.colophon__date {
+    grid-area: colophon__date;
+    font-size: 14px; 
+}
+.colophon__comments {
+    grid-area: colophon__comments;
+    font-size: 14px;
+    text-align: end;
+}

@@ -1,0 +1,55 @@
+.content{
+    grid-area: content;
+    grid-template-columns: repeat(4, 1fr);
+    font-weight: bold;
+    position: relative;
+}
+.text{
+    grid-area: content;
+    margin-bottom: 50px;
+}
+p.text{
+    font-size: 20px;
+    color: hsl(0, 0%, 20%);
+    font-weight: 400;
+}
+.socials{
+    float: right;
+    grid-area: content;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+}
+.del{
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    margin: 2px;
+    display: inline-block;
+    background-color: hsl(197, 100%, 40%);
+    width: 100px;
+    padding: 10px 0;
+}
+.tweet{
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    text-align: center;
+    display: inline-block;
+    background-color: hsl(187, 94%, 52%);
+    margin: 2px;  
+    width: 100px;
+    padding: 10px 0;
+}
+.mail{
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    padding: 10px 0;
+    background-color: hsl(0, 0%, 43%);
+    margin: 2px;  
+}

@@ -1,0 +1,22 @@
+.byline{
+    display: grid;
+    grid-area: byline;
+    grid-template-columns: repeat(4, 1fr);
+    font-weight: bold; 
+    display: block; 
+}
+.byline__profile{
+    float: left;
+}
+.bylineProfile__name{
+    margin: 10px 0 0 0;
+}
+.bylineEmail{
+    margin: 0px;
+}
+.bylineProfile__2nd{
+    margin: 20px 0 0 0;
+}
+.bylineProfile__email{
+    margin: 6px 0 0 0;
+}

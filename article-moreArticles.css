@@ -1,0 +1,128 @@
+.line{
+    display: grid;
+    grid-area: line;
+    grid-template-columns: repeat(4, 1fr);
+	grid-template-areas: "read . arrow .";
+    font-weight: bold;
+    font-size: 18px;
+}
+.read{
+    grid-area: read;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+}
+.arrows{
+    grid-area: arrow;
+    margin-top: 20px;
+}
+.fourArticles{
+    display: grid;
+    grid-area: article;
+    grid-template-columns: repeat(4, 1fr);
+	grid-template-areas: "stArticle ndArticle rdArticle thArticle";
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.fourArticles p{
+    margin: 5px;
+}
+.stArticle{
+    grid-area: stArticle;
+}
+.ndArticle{
+    grid-area: ndArticle;
+}
+.rdArticle{
+    grid-area: rdArticle;
+}
+.thArticle{
+    grid-area: thArticle;
+}
+
+
+.latestNews{
+    display: grid;
+    grid-area: article;
+    grid-template-columns: repeat(4, 1fr);
+	grid-template-areas: "linetext . . domain";
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+}
+.linetext{
+    grid-area: linetext;
+}
+.domain{
+    grid-area: domain;
+}
+
+
+.articlesNow{
+    display: grid;
+    grid-area: article;
+	grid-template-rows: repeat(2, auto);  
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:". abonommentOne . ."
+                        "otherArticles articleOne articleTwo articleThree"
+                        "otherArticles abonomment1 abonomment2 abonomment3"
+                        "otherArticles articleFour articleFive articleSix";
+}
+.otherArticles{
+    grid-area: otherArticles;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+p.time{
+    color: darkgray;
+    font-size: 12px;
+    margin: 0px;
+    font-weight: bold;
+}
+.articlesOne img, .articleTwo, .articleThree{
+    margin: 0px;
+    margin-bottom: 1px;
+}
+p.textHeading{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.abonnementText{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+.articleOne{
+    grid-area: articleOne;
+}
+.articleTwo{
+    grid-area: articleTwo;
+}
+.articleThree{
+    grid-area: articleThree;
+}
+.articleFour{
+    grid-area: articleFour;
+}
+.articleFive{
+    grid-area: articleFive;
+}
+.articleSix{
+    grid-area: articleSix;
+}
+.abonnementText{
+    grid-area: abonommentOne;
+}
+.abonnementTextTwo{
+    grid-area: abonomment1;
+}
+.abonnementTextThree{
+    grid-area: abonomment2;
+}
+.abonnementTextFour{
+    grid-area: abonomment3;
+}
